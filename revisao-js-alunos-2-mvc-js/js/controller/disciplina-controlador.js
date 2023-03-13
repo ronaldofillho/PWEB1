@@ -46,7 +46,6 @@ class DisciplinaControlador {
             const aluno = new Aluno(nomeAluno);
             this.disciplinaServico.inserirAlunoNaDisciplina(disciplina, aluno);
             this.mostrarAlunoNaLista(codigoDisciplina, nomeAluno);
-            console.log(disciplina)
             alert('Aluno adicionado com sucesso!');
         } else {
             alert('Disciplina não encontrada!');
